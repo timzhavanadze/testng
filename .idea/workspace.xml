@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="273e8c97-1f86-4356-a641-4b0aba03cadb" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HoWqiSbfPiKHh1usH0TTY8umqb" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.Annotations.basicCommandsAndTimeout1">
+    <configuration name="Annotations.basicCommandsAndTimeout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testngExample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Annotations" />
+      <option name="METHOD_NAME" value="basicCommandsAndTimeout" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Annotations.basicCommandsAndTimeout1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testngExample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Annotations" />
+      <option name="METHOD_NAME" value="basicCommandsAndTimeout1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/TIMZHAVANADZE/Downloads/testngExample/Parameters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testngExample" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Parameters.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProviderTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testngExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataProvider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataProvider" />
+      <option name="MAIN_CLASS_NAME" value="dataProvider.DataProviderTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParametersTest.testWithParameters" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testngExample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ParametersTest" />
+      <option name="METHOD_NAME" value="testWithParameters" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Annotations.basicCommandsAndTimeout1" />
+        <item itemvalue="TestNG.Annotations.basicCommandsAndTimeout" />
+        <item itemvalue="TestNG.DataProviderTest.test" />
+        <item itemvalue="TestNG.C:/Users/TIMZHAVANADZE/Downloads/testngExample/Parameters.xml" />
+        <item itemvalue="TestNG.ParametersTest.testWithParameters" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="273e8c97-1f86-4356-a641-4b0aba03cadb" name="Default Changelist" comment="" />
+      <created>1668952108745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668952108745</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite">
+
+    <!-- Parameters -->
+    <test name="Parameter Test 1">
+
+        <parameter name="firstName" value="name1"/>
+        <parameter name="lastName" value="lastname1"/>
+        <parameter name="gender" value="Female"/>
+        <parameter name="number" value="1111111111"/>
+
+        <classes>
+            <class name="ParametersTest"/>
+        </classes>
+    </test>
+
+    <test name="Parameter Test 2">
+
+        <parameter name="firstName" value="name2"/>
+        <parameter name="lastName" value="lastname2"/>
+        <parameter name="gender" value="Other"/>
+        <parameter name="number" value="2222222222"/>
+
+        <classes>
+            <class name="ParametersTest"/>
+        </classes>
+    </test>
+
+    <test name="Parameter Test 3">
+
+        <parameter name="firstName" value="name3"/>
+        <parameter name="lastName" value="lastname3"/>
+        <parameter name="gender" value="Male"/>
+        <parameter name="number" value="3333333333"/>
+
+        <classes>
+            <class name="ParametersTest"/>
+        </classes>
+    </test>
+
+</suite>
