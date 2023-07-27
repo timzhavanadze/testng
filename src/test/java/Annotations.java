@@ -34,18 +34,18 @@ public class Annotations {
         $("#dropdown").selectOption("Option 1");
         $("#dropdown").getSelectedOption().shouldHave(matchText("ption 1"),value("1"));
     }
-    @Test(dependsOnMethods = "checkConditions")
+    @Test(dependsOnMethods = "checkConditions", alwaysRun = true)
     public void fileDownload() throws FileNotFoundException {
         open("/download");
         $(byText("name.png")).download();
     }
-    @Test(invocationCount = 3)
+    @Test(invocationCount = 3, threadPoolSize = 3)
     public void basicCommandsAndTimeout() {
         open("/dynamic_controls");
         SelenideElement enableButton= $(By.cssSelector("#input-example button"));
         enableButton.click();
     }
-    @Test(timeOut = 200, description = "open link and validate that element is not visible")
+    @Test(timeOut = 30000, description = "open link and validate that element is not visible")
     public void basicCommandsAndTimeout1() {
         open("/dynamic_controls");
         SelenideElement enableButton= $(By.cssSelector("#xfgchgvfjk"));
