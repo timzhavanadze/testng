@@ -20,12 +20,12 @@ public class Test2 {
         open("https://demo.guru99.com/test/selenium-xpath.html");
     }
     @Test
-    public void className() {
+    public void classNameFirst() {
         open("https://demo.guru99.com/test/selenium-xpath.html");
         $(".thick-heading").shouldHave(exactText("Tutorials Library"));
     }
     @Test
-    public void className1() {
+    public void classNameSecond() {
         open("https://demo.guru99.com/test/selenium-xpath.html");
         $(by("title", "SQL")).shouldBe(visible);
     }

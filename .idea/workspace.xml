@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="273e8c97-1f86-4356-a641-4b0aba03cadb" name="Default Changelist" comment="add testng tests">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Regression/BeforeAfterMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Regression/HierarchyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngForRegression.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Annotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BeforeAfterMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BeforeAfterMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParametersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/DataProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataProvider/DataProviderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataProvider/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,18 +49,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/New folder/pageObject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
-  <component name="RunManager" selected="TestNG.BeforeAfterMethod">
-    <configuration name="Annotations.basicCommandsAndTimeout" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\qeti\Downloads\testngExample" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Regression" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/qeti/Downloads/testngExample/testng.xml">
+    <configuration name="Annotations.basicCommandsAndTimeout1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testngExample" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Annotations" />
-      <option name="METHOD_NAME" value="basicCommandsAndTimeout" />
+      <option name="METHOD_NAME" value="basicCommandsAndTimeout1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -72,11 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeforeAfterMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Annotations.checkConditions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testngExample" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BeforeAfterMethod" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="Annotations" />
+      <option name="METHOD_NAME" value="checkConditions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/qeti/Downloads/testngExample/testngForRegression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testngExample" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngForRegression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -87,24 +102,6 @@
       <module name="testngExample" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataProviderTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testngExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataProvider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataProvider" />
-      <option name="MAIN_CLASS_NAME" value="dataProvider.DataProviderTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -124,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BeforeAfterMethod" />
         <item itemvalue="TestNG.C:/Users/qeti/Downloads/testngExample/testng.xml" />
-        <item itemvalue="TestNG.Annotations.basicCommandsAndTimeout" />
+        <item itemvalue="TestNG.C:/Users/qeti/Downloads/testngExample/testngForRegression.xml" />
+        <item itemvalue="TestNG.Annotations.checkConditions" />
         <item itemvalue="TestNG.Priority" />
-        <item itemvalue="TestNG.DataProviderTest.test" />
+        <item itemvalue="TestNG.Annotations.basicCommandsAndTimeout1" />
       </list>
     </recent_temporary>
   </component>

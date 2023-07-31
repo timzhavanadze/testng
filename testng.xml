@@ -11,6 +11,10 @@
                 </methods>
             </class>
             <class name="Test2">
+                <methods>
+                    <include name="classNameSecond"/>
+                    <include name="classNameFirst"/>
+                </methods>
             </class>
         </classes>
     </test>

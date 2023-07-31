@@ -21,7 +21,7 @@ public class Annotations {
         reportsFolder = "src/main/resources/Reports";
         downloadsFolder="src/main/resources/images";
     }
-    @Test()
+    @Test(successPercentage = 90)
     public void checkConditions() {
         open("/inputs");
         SelenideElement input =  $(".example input");
