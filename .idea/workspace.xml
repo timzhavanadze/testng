@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273e8c97-1f86-4356-a641-4b0aba03cadb" name="Default Changelist" comment="add testng tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Regression/BeforeAfterMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Regression/HierarchyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngForRegression.xml" afterDir="false" />
+    <list default="true" id="273e8c97-1f86-4356-a641-4b0aba03cadb" name="Default Changelist" comment="add testng suits and execution">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RetryUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngGroups.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Annotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,34 +61,10 @@
       <recent name="Regression" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/qeti/Downloads/testngExample/testng.xml">
-    <configuration name="Annotations.basicCommandsAndTimeout1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SelenideTests.className">
+    <configuration name="C:/Users/qeti/Downloads/testngExample/testngGroups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testngExample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Annotations" />
-      <option name="METHOD_NAME" value="basicCommandsAndTimeout1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Annotations.checkConditions" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testngExample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Annotations" />
-      <option name="METHOD_NAME" value="checkConditions" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/qeti/Downloads/testngExample/testngForRegression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testngExample" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngForRegression.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngGroups.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -98,21 +72,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/qeti/Downloads/testngExample/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testngExample" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Priority" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelenideTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testngExample" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Priority" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelenideTests2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testngExample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelenideTests.className" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testngExample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests" />
+      <option name="METHOD_NAME" value="className" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelenideTests.screenshot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testngExample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests" />
+      <option name="METHOD_NAME" value="screenshot" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -121,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/qeti/Downloads/testngExample/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/qeti/Downloads/testngExample/testngForRegression.xml" />
-        <item itemvalue="TestNG.Annotations.checkConditions" />
-        <item itemvalue="TestNG.Priority" />
-        <item itemvalue="TestNG.Annotations.basicCommandsAndTimeout1" />
+        <item itemvalue="TestNG.SelenideTests.className" />
+        <item itemvalue="TestNG.C:/Users/qeti/Downloads/testngExample/testngGroups.xml" />
+        <item itemvalue="TestNG.SelenideTests.screenshot" />
+        <item itemvalue="TestNG.SelenideTests2" />
+        <item itemvalue="TestNG.SelenideTests" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +140,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668952108745</updated>
     </task>
+    <task id="LOCAL-00001" summary="add testng suits and execution">
+      <created>1690811562301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690811562301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +163,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add testng tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add testng tests" />
+    <MESSAGE value="add testng suits and execution" />
+    <option name="LAST_COMMIT_MESSAGE" value="add testng suits and execution" />
   </component>
 </project>
