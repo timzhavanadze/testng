@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273e8c97-1f86-4356-a641-4b0aba03cadb" name="Default Changelist" comment="add testng suits and execution">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RetryUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngGroups.xml" afterDir="false" />
+    <list default="true" id="273e8c97-1f86-4356-a641-4b0aba03cadb" name="Default Changelist" comment="add testng groups and retry">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FactoryPracticeForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,10 +58,10 @@
       <recent name="Regression" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SelenideTests.className">
-    <configuration name="C:/Users/qeti/Downloads/testngExample/testngGroups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FactoryPracticeForm (1)">
+    <configuration name="C:/Users/qeti/Downloads/testngExample/Parameters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testngExample" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngGroups.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Parameters.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -72,10 +69,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testngExample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelenideTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataProvider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataProvider" />
+      <option name="MAIN_CLASS_NAME" value="dataProvider.DataProviderTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -83,10 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideTests2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FactoryPracticeForm (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testngExample" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelenideTests2" />
+      <option name="MAIN_CLASS_NAME" value="FactoryPracticeForm" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryPracticeForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testngExample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FactoryPracticeForm" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -106,25 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideTests.screenshot" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testngExample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelenideTests" />
-      <option name="METHOD_NAME" value="screenshot" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FactoryPracticeForm (1)" />
+        <item itemvalue="TestNG.FactoryPracticeForm" />
+        <item itemvalue="TestNG.DataProviderTest" />
+        <item itemvalue="TestNG.C:/Users/qeti/Downloads/testngExample/Parameters.xml" />
         <item itemvalue="TestNG.SelenideTests.className" />
-        <item itemvalue="TestNG.C:/Users/qeti/Downloads/testngExample/testngGroups.xml" />
-        <item itemvalue="TestNG.SelenideTests.screenshot" />
-        <item itemvalue="TestNG.SelenideTests2" />
-        <item itemvalue="TestNG.SelenideTests" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690811562301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add testng groups and retry">
+      <created>1690986484073</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690986484073</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +173,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add testng tests" />
     <MESSAGE value="add testng suits and execution" />
-    <option name="LAST_COMMIT_MESSAGE" value="add testng suits and execution" />
+    <MESSAGE value="add testng groups and retry" />
+    <option name="LAST_COMMIT_MESSAGE" value="add testng groups and retry" />
   </component>
 </project>
